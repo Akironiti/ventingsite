@@ -12,6 +12,9 @@
             background-color: #000;
             color: #fff;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             padding: 20px;
@@ -21,40 +24,46 @@
             margin: 0;
             font-size: 2.5rem;
         }
+        main {
+            flex: 1;
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #111;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 10px;
             padding: 10px 20px;
             border: 2px solid #fff;
+            border-radius: 25px;
             transition: background-color 0.3s;
         }
         nav a:hover {
             background-color: #fff;
             color: #000;
         }
-        main {
-            margin-top: 50px;
-        }
-        footer {
-            margin-top: 100px;
-            padding: 10px;
-            background-color: #111;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Discord</h1>
+        <h1>My Discord</h1>
     </header>
-    <nav>
-        <a href="index.html">Main Site</a>
-        <a href="instagram.html">Instagram</a>
-    </nav>
     <main>
-        <p>If you want you can add me on discord and simply text me <strong>BlMb</strong>.</p>
+        <p>If you want or need to text with someone my DMs on discord are open! <strong>__.blackmamba__</strong>.</p>
     </main>
     <footer>
+        <nav>
+            <a href="index.html">Main Site</a>
+            <a href="instagram.html">Instagram</a>
+        </nav>
         <p>&copy; 2024 Inf Corp. All rights reserved.</p>
     </footer>
 </body>
