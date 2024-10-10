@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlMb's Venting Site</title>
+    <title>BlMb's Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,6 +12,9 @@
             background-color: #000;
             color: #fff;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             padding: 20px;
@@ -21,28 +24,31 @@
             margin: 0;
             font-size: 2.5rem;
         }
+        main {
+            flex: 1;
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #111;
+            padding: 20px;
+        }
         nav {
+            display: flex;
+            justify-content: center;
             margin-top: 20px;
         }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 10px;
             padding: 10px 20px;
             border: 2px solid #fff;
+            border-radius: 25px;
             transition: background-color 0.3s;
         }
         nav a:hover {
             background-color: #fff;
             color: #000;
-        }
-        main {
-            margin-top: 50px;
-        }
-        footer {
-            margin-top: 100px;
-            padding: 10px;
-            background-color: #111;
         }
     </style>
 </head>
@@ -55,7 +61,7 @@
         <a href="instagram.html">Instagram</a>
     </nav>
     <main>
-        <p>Welcome on my site. On here you have some informations about me! <strong>BlMb Site</strong>.</p>
+        <p>Welcome on my site. On here you have some informations about me!</p>
     </main>
     <footer>
         <p>&copy; 2024 Inf Corp. All rights reserved.</p>
