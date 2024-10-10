@@ -26,7 +26,29 @@
         }
         main {
             flex: 1;
-            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .discord-button {
+            background-color: #5865F2;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+        .discord-button:hover {
+            background-color: #4854D3;
+        }
+        .discord-description {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 10px;
         }
         footer {
             background-color: #111;
@@ -57,7 +79,9 @@
         <h1>My Discord</h1>
     </header>
     <main>
-        <p>If you want or need to text with someone my DMs on discord are open! <strong>__.blackmamba__</strong>.</p>
+        <p>If you want to text someone here's a button that will send me a friend request from your account!</p>
+        <a href="https://discordapp.com/users/1293890191240466453" class="discord-button">My discord profile</a>
+        <p class="discord-description">if you click this it'll automatically send me a friend request</p>
     </main>
     <footer>
         <nav>
